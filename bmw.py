@@ -1,0 +1,25 @@
+from turtle import *
+speed(1)
+bgcolor("#383838")
+w, b = "white", "#008ac9"
+shape("square")
+shapesize(5, 5, 1)
+penup()
+pen(pencolor=w)
+fillcolor(w)
+back(50)
+stamp()
+for i in range(3):
+    c = b if i%2==0 else w
+    pen(pencolor=c)
+    fillcolor(c)
+    seth(i * 90)
+    forward(100)
+    stamp()
+hideturtle()
+goto(0, 180)
+pendown()
+pen(pencolor="black")
+width(60)
+circle(130, 360)
+done()
