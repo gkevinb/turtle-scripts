@@ -10,3 +10,5 @@ Collection of `python` `turtle` scripts used to draw logos and symbols to releas
 - Bluetooth
 - Audi
 - Mercedes
+- Shazam
+- Dropbox
