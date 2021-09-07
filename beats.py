@@ -1,5 +1,4 @@
 from turtle import *
-speed(100)
 bgcolor("black")
 pen(pencolor="#E01F3D")
 hideturtle()
