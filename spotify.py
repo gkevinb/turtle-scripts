@@ -1,6 +1,5 @@
 from turtle import *
 bgcolor("black")
-speed(1)
 seth(90)
 forward(100)
 dot(220, "#1DB954")
@@ -8,7 +7,7 @@ pen(pencolor="black")
 hideturtle()
 for i in range(3):
     penup()
-    goto(10*i+50, 31.5*i+56)
+    setpos(10*i+50, 31.5*i+56)
     pendown()
     width(i*3+14)
     seth(150)
