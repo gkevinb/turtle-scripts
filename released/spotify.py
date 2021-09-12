@@ -1,0 +1,15 @@
+from turtle import *
+bgcolor("black")
+seth(90)
+forward(100)
+dot(220, "#1DB954")
+pen(pencolor="black")
+hideturtle()
+for i in range(3):
+    penup()
+    setpos(10*i+50, 31.5*i+56)
+    pendown()
+    width(i*3+14)
+    seth(150)
+    circle(20*i+120, 50)
+done()
