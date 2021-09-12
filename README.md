@@ -12,3 +12,5 @@ Collection of `python` `turtle` scripts used to draw logos and symbols to releas
 - Mercedes
 - Shazam
 - Dropbox
+- Reddit
+- Stackoverflow
